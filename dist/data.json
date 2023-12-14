@@ -1,0 +1,132 @@
+{
+    "portfolios": [
+      {
+        "type": "Website Design",
+        "image": "img/learners.png",
+        "judul": "Landing Page - Learners",
+        "description": "Learnes is an e-learning website that helps students learn wherever and whenever.",
+        "viewMoreLink": "https://dribbble.com/shots/20298846-Landing-Page-Learners",
+        "dribbbleLink": "https://dribbble.com/shots/20298846-Landing-Page-Learners"
+      },
+      {
+        "type": "Website Design",
+        "image": "img/todoit.png",
+        "judul": "Task Manager - todoit",
+        "description": "Todoit is an all-in-one task management platform. Here you can manage your project team, tasks, reports and team in one place. This makes work more efficient and controllable.",
+        "viewMoreLink": "https://dribbble.com/shots/20054798-Task-Manager-todoit",
+        "dribbbleLink": "https://dribbble.com/shots/20054798-Task-Manager-todoit"
+      },
+      {
+        "type": "Website Design",
+        "image": "img/portofolio.png",
+        "judul": "Personal Portofolio",
+        "description": "Todoit is an all-in-one task management platform. Here you can manage your project team, tasks, reports and team in one place. This makes work more efficient and controllable.",
+        "viewMoreLink": "https://dribbble.com/shots/23241199-Personal-Portofolio",
+        "dribbbleLink": "https://dribbble.com/shots/23241199-Personal-Portofolio"
+      },
+      {
+        "type": "Website Design",
+        "image": "img/eduwork.png",
+        "judul": "Internship Page - Eduwork",
+        "description": "This is my internship project called internship page, here users can search for available internship vacancies.",
+        "viewMoreLink": "https://dribbble.com/shots/19839402-Internship-Page",
+        "dribbbleLink": "https://dribbble.com/shots/19839402-Internship-Page"
+      },
+      {
+        "type": "Mobile App Design",
+        "image": "img/mobileapp.png",
+        "judul": "Design Music App",
+        "description": "Todoit is an all-in-one task management platform. Here you can manage your project team, tasks, reports and team in one place. This makes work more efficient and controllable.",
+        "viewMoreLink": "https://dribbble.com/shots/15228293-Design-Music-App",
+        "dribbbleLink": "https://dribbble.com/shots/15228293-Design-Music-App"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "Learners-FrontPage",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/Learnes-FrontPage",
+        "dribbbleLink": "https://github.com/calvinalvito/Learnes-FrontPage"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "Indonesiaku Website",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/Indonesiaku",
+        "dribbbleLink": "https://github.com/calvinalvito/Indonesiaku"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "Luxspace-React",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/Luxspace-React",
+        "dribbbleLink": "https://github.com/calvinalvito/Luxspace-React"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "Laravel Dev",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/Larevel-Dev",
+        "dribbbleLink": "https://github.com/calvinalvito/Larevel-Dev"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "Microservice API - Back End",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/Microservice-APIGateway",
+        "dribbbleLink": "https://github.com/calvinalvito/Microservice-APIGateway"
+      }
+    ],
+    "experiences": [
+      {
+        "date": "Nov - Des 2023",
+        "title": "Project-Based Virtual Internship : Bank Muamalat Business Intelligence Analyst X Rakamin",
+        "company": "Bank Mualamat",
+        "location": "Indonesia",
+        "description": [
+        ]
+      },
+      {
+        "date": "Feb-Jul 2023",
+        "title": "UI/UX Desainer – Internship",
+        "company": "Bangsa Kreatif",
+        "location": "Bandung, Indonesia",
+        "description": [
+          "Melaksanakan riset terhadap pengguna serta analisis kompetitor.",
+          "Merancang interaksi serta antarmuka situs web perusahaan.",
+          "Berkolaborasi dengan pemangku kepentingan dan divisi terkait.",
+          "Mengimplementasikan pengujian dan melakukan iterasi pada antarmuka yang telah dibuat."
+        ]
+      },
+      {
+        "date": "Sep 2022 - Jan 2023",
+        "title": "Asisten Praktikum Mata Kuliah Praktikum Sistem Operasi – Part-time",
+        "company": "UMS",
+        "location": "Surakarta, Indonesia",
+        "description": [
+          "Membantu dosen dalam persiapan materi dan tugas praktikum sistem operasi",
+          "Membantu mahasiswa dalam mengoperasikan perangkat lunak dan peralatan computer",
+          "Memberikan bimbingan teknis dan membantu dalam pemecahan masalah",
+          "Memberikan penilaian atas pekerjaan praktikum baik untuk tugas, UTS, dan UAS"
+        ]
+        
+      },
+      {
+        "date": "Sep - Des 2022",
+        "title": "UI/UX Desainer – Internship",
+        "company": "Eduwork",
+        "location": "Yogyakarta, Indonesia",
+        "description": [
+          "Mempelajari tekait desain thinking, desain sprint, dan user interface centered",
+          "Melakukan analisis user experience berupa user flow, user pesona, dan usability testing",
+          "Melakukan redesain website perusahaan",
+          "Membuat prototype desain website perusahaan"
+        ]        
+      }
+    ]
+  }
+  

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="dark:bg-black90 font-poppins">
+    <!-- Navbar Section Start-->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 h-[80px] bg-red">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-white block py-6">Calvinalvito</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden text-white">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.66663 7H23.3333M4.66663 14H23.3333M4.66663 21H23.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                                     
+                    </button>
+
+                    <nav id="nav-menu" class="hidden text-white py-5 bg-darkmode fixed top-0 left-0 w-full h-full z-100 items-center lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <div>
+                        <div class="mx-auto lg:hidden flex justify-center items-center">
+                            <a href="#home" class="font-bold text-lg text-white block py-6">Calvinalvito</a>
+                        </div>
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-white py-2 mx-8 flex group-hover:text-white group-hover:text-opacity-70 justify-center items-center">
+                                    Beranda
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-white py-2 mx-8 flex group-hover:text-white group-hover:text-opacity-70 justify-center items-center">
+                                    About Me
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-base text-white py-2 mx-8 flex group-hover:text-white group-hover:text-opacity-70 justify-center items-center">
+                                    Portofolio
+                                </a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-white py-2 mx-8 flex group-hover:text-white group-hover:text-opacity-70 justify-center items-center">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="mx-auto mt-36 lg:hidden flex justify-center items-center">
+                            <button id="navbar-close" name="navbar-close" type="button" class="border border-white px-4 py-4 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                </svg>                                  
+                            </button>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="my-[40px] lg:my-[80px]">
+        <div class="container w-full h-full">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full lg:w-1/2 order-2 lg:order-1">
+                    <h1 class="text-primary text-[22px] font-bold mb-[4px]">Hi, i’m Calvin Alvito</h1>
+                    <h2 class="font-bold text-3xl text-white mb-[8px] lg:text-5xl lg:leading-tight">Innovative UI/UX Designer & Full Stack Developer</h2>
+                    <p class="font-light text-black50 mb-[40px]">Empowering Innovation Through Code and Design: A Passionate Fresh Graduate in Information Technology Ready to Transform Ideas into Exceptional Digital Experiences.</p>
+                    <div class="w-full h-[46px] justify-start items-center gap-4 inline-flex">
+                        <a href="mailto:calvinalvito19@gmail.com" class="group pl-[10px] lg:pl-[18px] pr-1 py-1 bg-green50 rounded-[100px] justify-center items-center gap-[10px] flex group-hover:opacity-80">
+                            <div class="text-white text-lg font-semibold group-hover:opacity-80">Hire Me</div>
+                            <div class="p-2.5 bg-zinc-100 rounded-[100px] justify-start items-start gap-2.5 flex group-hover:opacity-80">
+                                <div class="w-[18px] h-[18px] relative">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.5 9H16.5M16.5 9L9.75 2.25M16.5 9L9.75 15.75" stroke="#1C1C1C" stroke-width="2"/>
+                                    </svg>                                        
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <div class="justify-start items-start gap-2 lg:gap-5 flex">
+                            <a href="https://dribbble.com/CalvinAlvito" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                                <div class="w-7 h-7 relative">
+                                    <div class="w-7 h-7 left-0 top-0 absolute">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.0697 16.8457C16.9633 19.4943 17.5643 22.2328 17.8617 25.0123C16.6206 25.4468 15.3149 25.6681 14 25.6668C11.6868 25.6704 9.42518 24.983 7.50516 23.6928C8.39982 22.035 9.6191 20.5743 11.0903 19.3977C12.5615 18.2211 14.2546 17.3528 16.0685 16.8445L16.0697 16.8457ZM25.1685 17.3858C24.3354 20.1231 22.5278 22.46 20.0877 23.9542C19.7614 21.3903 19.1911 18.8635 18.3843 16.4082C20.6917 16.1697 23.0223 16.5056 25.1685 17.3858ZM14.1692 12.2327C14.5565 13.0237 14.9193 13.831 15.2542 14.6512C11.2135 15.8354 7.78447 18.5308 5.67933 22.1773C4.4964 20.9652 3.58928 19.5118 3.02004 17.9167C2.45079 16.3215 2.23286 14.6222 2.38116 12.935C6.28133 13.761 10.3962 13.5207 14.1692 12.2327ZM23.0067 6.58483C24.9504 8.95857 25.8884 11.9986 25.62 15.0548C23.0535 14.0888 20.2863 13.78 17.57 14.1565C17.195 13.2088 16.7844 12.2756 16.3392 11.3588C18.8385 10.1948 21.0995 8.57596 23.0067 6.58483ZM8.47699 3.72183C10.2204 5.69937 11.7568 7.85026 13.062 10.1408C9.75078 11.1954 6.22178 11.3684 2.82333 10.6425C3.71777 7.67833 5.75084 5.18964 8.47699 3.72183ZM14 2.3335C16.786 2.3335 19.3445 3.31 21.35 4.93983C19.6134 6.76117 17.5468 8.23628 15.26 9.28683C13.972 6.98126 12.4639 4.80578 10.7567 2.79083C11.8109 2.48671 12.9028 2.33275 14 2.3335Z" fill="#DADADA"/>
+                                        </svg>                                            
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://dribbble.com/CalvinAlvito" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                                <div class="w-7 h-7 relative">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.68346 6.2417C9.42896 6.2417 10.1185 6.30003 10.7485 6.4727C11.3796 6.5882 11.8965 6.8192 12.355 7.10737C12.8146 7.3967 13.1588 7.80037 13.3875 8.31953C13.6173 8.8387 13.7328 9.47453 13.7328 10.1664C13.7328 10.9749 13.5601 11.6667 13.1588 12.1859C12.8146 12.7062 12.2406 13.167 11.5523 13.5135C12.5276 13.8029 13.2731 14.322 13.7328 15.015C14.1913 15.7069 14.4783 16.5725 14.4783 17.5537C14.4783 18.3622 14.3056 19.054 14.0186 19.6315C13.7328 20.209 13.2731 20.7282 12.7563 21.0747C12.1949 21.4461 11.5743 21.7191 10.9211 21.882C10.2328 22.0559 9.54446 22.1714 8.85613 22.1714H1.16663V6.2417H8.68346ZM8.22379 12.705C8.85496 12.705 9.37179 12.5324 9.77313 12.2442C10.1745 11.956 10.3471 11.4357 10.3471 10.801C10.3471 10.4545 10.2888 10.1092 10.1745 9.8782C10.0601 9.6472 9.88746 9.47337 9.65879 9.3007C9.42896 9.1852 9.19913 9.0697 8.91213 9.01253C8.62513 8.9542 8.33929 8.9542 7.99396 8.9542H4.66663V12.7062H8.22496L8.22379 12.705ZM8.39646 19.516C8.74063 19.516 9.08479 19.4577 9.37179 19.4005C9.65879 19.3422 9.94579 19.2279 10.1745 19.054C10.4082 18.8851 10.6038 18.6689 10.7485 18.4194C10.8628 18.1312 10.9783 17.7847 10.9783 17.381C10.9783 16.5725 10.7485 15.9962 10.29 15.5914C9.83029 15.2449 9.19913 15.0722 8.45363 15.0722H4.66663V19.5172L8.39646 19.516ZM19.4705 19.4577C19.929 19.9197 20.6173 20.1507 21.5355 20.1507C22.1666 20.1507 22.7406 19.978 23.1991 19.6899C23.6588 19.3434 23.9458 18.9969 24.0601 18.6515H26.8718C26.4121 20.0352 25.7238 21.0164 24.8068 21.6522C23.8875 22.2285 22.7978 22.575 21.4783 22.575C20.6341 22.5776 19.7969 22.4209 19.0108 22.113C18.3034 21.8478 17.6726 21.4117 17.1745 20.8437C16.6416 20.3124 16.2478 19.6581 16.0276 18.9385C15.7406 18.1884 15.6251 17.381 15.6251 16.457C15.6251 15.5914 15.7406 14.784 16.0276 14.0327C16.304 13.3098 16.7127 12.6447 17.2328 12.0715C17.7567 11.5335 18.3799 11.1021 19.068 10.801C19.8341 10.4931 20.6526 10.3362 21.4783 10.339C22.4536 10.339 23.3146 10.5129 24.0601 10.9165C24.8068 11.3202 25.3796 11.7822 25.8381 12.4752C26.2978 13.1099 26.6431 13.86 26.8718 14.6685C26.9861 15.4759 27.0433 16.2844 26.9861 17.2072H18.6666C18.6666 18.1312 19.0108 18.9969 19.4705 19.4589V19.4577ZM23.0848 13.398C22.6835 12.9944 22.0523 12.7634 21.3056 12.7634C20.79 12.7634 20.3875 12.88 20.0433 13.0527C19.6991 13.2254 19.4705 13.4564 19.2406 13.6874C19.0295 13.9105 18.8897 14.1916 18.8393 14.4947C18.781 14.784 18.7238 15.015 18.7238 15.2449H23.8875C23.7731 14.3792 23.4861 13.8029 23.0848 13.398ZM18.0355 7.33837H24.4615V8.89703H18.0366V7.33837H18.0355Z" fill="#DADADA"/>
+                                    </svg>    
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/calvinalvitodinova/" class="p-2 rounded-[100px] border border-zinc-300 justify-start items-start gap-2.5 flex">
+                                <div class="w-7 h-7 relative">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.09672 5.83352C8.09641 6.45236 7.85028 7.04573 7.41248 7.4831C6.97467 7.92046 6.38106 8.166 5.76222 8.16569C5.14338 8.16538 4.55001 7.91925 4.11265 7.48145C3.67528 7.04364 3.42974 6.45003 3.43005 5.83119C3.43036 5.21235 3.67649 4.61898 4.1143 4.18162C4.5521 3.74425 5.14572 3.49871 5.76455 3.49902C6.38339 3.49933 6.97676 3.74546 7.41413 4.18327C7.85149 4.62107 8.09703 5.21469 8.09672 5.83352ZM8.16672 9.89352H3.50005V24.5002H8.16672V9.89352ZM15.5401 9.89352H10.8967V24.5002H15.4934V16.8352C15.4934 12.5652 21.0584 12.1685 21.0584 16.8352V24.5002H25.6667V15.2485C25.6667 8.05019 17.4301 8.31852 15.4934 11.8535L15.5401 9.89352Z" fill="#DADADA"/>
+                                    </svg>                                        
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/calvinalvito_/" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                                <div class="w-7 h-7 relative">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.1993 2.33444C16.0507 2.33118 16.902 2.33973 17.7531 2.36011L17.9795 2.36828C18.2408 2.37761 18.4986 2.38928 18.8101 2.40328C20.0515 2.46161 20.8985 2.65761 21.6416 2.94578C22.4116 3.24211 23.0603 3.64344 23.709 4.29211C24.3021 4.87498 24.7611 5.58005 25.0541 6.35828C25.3423 7.10144 25.5383 7.94961 25.5966 9.19094C25.6106 9.50128 25.6223 9.76028 25.6316 10.0216L25.6386 10.2479C25.6594 11.0987 25.6683 11.9496 25.6655 12.8006L25.6666 13.6709V15.1993C25.6695 16.0506 25.6606 16.902 25.6398 17.7531L25.6328 17.9794C25.6235 18.2408 25.6118 18.4986 25.5978 18.8101C25.5395 20.0514 25.3411 20.8984 25.0541 21.6416C24.7621 22.4207 24.3029 23.1263 23.709 23.7089C23.1256 24.302 22.4202 24.761 21.6416 25.0541C20.8985 25.3423 20.0515 25.5383 18.8101 25.5966C18.4986 25.6106 18.2408 25.6223 17.9795 25.6316L17.7531 25.6386C16.902 25.6593 16.0507 25.6683 15.1993 25.6654L14.329 25.6666H12.8018C11.9505 25.6695 11.0991 25.6605 10.248 25.6398L10.0216 25.6328C9.74469 25.6227 9.4678 25.6111 9.19098 25.5978C7.94965 25.5394 7.10265 25.3411 6.35831 25.0541C5.57978 24.7617 4.87459 24.3026 4.29215 23.7089C3.69837 23.1259 3.23891 22.4204 2.94581 21.6416C2.65765 20.8984 2.46165 20.0514 2.40331 18.8101C2.39032 18.5333 2.37865 18.2564 2.36831 17.9794L2.36248 17.7531C2.34097 16.902 2.33125 16.0506 2.33331 15.1993V12.8006C2.33006 11.9496 2.33862 11.0987 2.35898 10.2479L2.36715 10.0216C2.37648 9.76028 2.38815 9.50128 2.40215 9.19094C2.46048 7.94844 2.65648 7.10261 2.94465 6.35828C3.23792 5.57967 3.69827 4.8748 4.29331 4.29328C4.87536 3.69915 5.5801 3.23928 6.35831 2.94578C7.10265 2.65761 7.94848 2.46161 9.19098 2.40328L10.0216 2.36828L10.248 2.36244C11.0987 2.34095 11.9497 2.33122 12.8006 2.33328L15.1993 2.33444ZM14 8.16778C13.2271 8.15684 12.4597 8.29964 11.7425 8.58786C11.0252 8.87607 10.3724 9.30397 9.82197 9.84667C9.27153 10.3894 8.83445 11.0361 8.53612 11.7492C8.23778 12.4623 8.08415 13.2275 8.08415 14.0005C8.08415 14.7735 8.23778 15.5388 8.53612 16.2519C8.83445 16.965 9.27153 17.6117 9.82197 18.1544C10.3724 18.6971 11.0252 19.125 11.7425 19.4132C12.4597 19.7014 13.2271 19.8442 14 19.8333C15.5471 19.8333 17.0308 19.2187 18.1248 18.1247C19.2187 17.0308 19.8333 15.547 19.8333 13.9999C19.8333 12.4528 19.2187 10.9691 18.1248 9.87515C17.0308 8.78119 15.5471 8.16778 14 8.16778ZM14 10.5011C14.4649 10.4925 14.9269 10.5767 15.3589 10.7487C15.7909 10.9207 16.1844 11.177 16.5162 11.5027C16.8481 11.8285 17.1117 12.2171 17.2917 12.6458C17.4716 13.0746 17.5644 13.5349 17.5645 13.9999C17.5645 14.4649 17.472 14.9253 17.2921 15.3541C17.1123 15.7829 16.8488 16.1716 16.5171 16.4975C16.1853 16.8233 15.792 17.0798 15.36 17.2519C14.928 17.424 14.4661 17.5084 14.0011 17.4999C13.0729 17.4999 12.1827 17.1312 11.5263 16.4748C10.8699 15.8184 10.5011 14.9282 10.5011 13.9999C10.5011 13.0717 10.8699 12.1814 11.5263 11.5251C12.1827 10.8687 13.0729 10.4999 14.0011 10.4999L14 10.5011ZM20.125 6.41778C19.7486 6.43284 19.3927 6.59295 19.1317 6.86458C18.8707 7.1362 18.725 7.49827 18.725 7.87494C18.725 8.25162 18.8707 8.61369 19.1317 8.88531C19.3927 9.15693 19.7486 9.31705 20.125 9.33211C20.5118 9.33211 20.8827 9.17846 21.1562 8.90497C21.4297 8.63148 21.5833 8.26055 21.5833 7.87378C21.5833 7.487 21.4297 7.11607 21.1562 6.84258C20.8827 6.56909 20.5118 6.41544 20.125 6.41544V6.41778Z" fill="#DADADA"/>
+                                    </svg>                                        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative w-full h-full mb-[40px] order-1 lg:w-1/2 lg:order-2">
+                    <img src="img/profilecalvin.png" alt="profilecalvin" class="mx-auto w-[168.89px] h-[250px] lg:w-[304px] lg:h-[450px] lg:justify-end">
+                    <div class="absolute w-full h-[200px] bg-gradient-to-r from-green50 to-lime rounded-[10px] opacity-80 lg:w-[300px] lg:h-[400px] -z-10 bottom-0 left-1/2 -translate-x-1/2"></div>            
+                </div>                
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    
+    <!-- Text Running Start -->
+    <div class="w-full h-[80px] lg:h-[100px] relative overflow-hidden bg-lime">
+        <div id="animatedContainer" class="h-full absolute -left-96 top-[20px] lg:top-[29px] flex lg:gap-[60px] items-start transition-transform duration-200">
+            <div class="w-[275px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">UI/UX Designer</div>
+            </div>
+            <div class="w-[245px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">Programmer</div>
+            </div>
+            <div class="w-[297px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">Project Manager</div>
+            </div>
+            <div class="w-[275px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">UI/UX Designer</div>
+            </div>
+            <div class="w-[245px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">Programmer</div>
+            </div>
+            <div class="w-[297px] relative">
+                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 0L20.1588 9.14871C20.9419 12.4671 23.5329 15.0581 26.8513 15.8412L36 18L26.8513 20.1588C23.5329 20.9419 20.9419 23.5329 20.1588 26.8513L18 36L15.8412 26.8513C15.0581 23.5329 12.4671 20.9419 9.14871 20.1588L0 18L9.14871 15.8412C12.4671 15.0581 15.0581 12.4671 15.8412 9.14871L18 0Z" fill="#1C1C1C"/>
+                </svg>                    
+                <div class="absolute left-[62px] top-0 text-zinc-900 text-[28px] font-semibold">Project Manager</div>
+            </div>
+        </div>
+    </div>
+    <!-- Text Running End -->
+    <!-- About Section Start -->
+    <section id="about" class="py-[80px] dark:bg-darkmodesecondary">
+        <div class="container w-full h-full">
+            <div class="">
+                <div class="text-white font-bold text-2xl lg:text-[40px] mb-4">About Me</div>
+                <div class="text-base text-black50 font-normal">Halo, saya Calvin, lulusan baru S1 Teknik Informatika dari Universitas Muhammadiyah Surakarta. Ahli dalam mendesain tampilan website/aplikasi, membangun website, dan menganalisis website. Fokus tinggi pada detail, bertanggung jawab, dan berminat dalam manajemen proyek serta pengembangan full stack.</div>
+            </div>
+            <div class="w-full h-full flex-col justify-start items-start inline-flex mt-[40px] overflow-hidden">
+                <div class="justify-start items-start gap-[18px] flex">
+                    <div class="text-white text-2xl font-semibold">Experience</div>
+                </div>
+                <div id="experienceContainer" class="lg:flex lg:flex-wrap w-full items-start mt-[18px]">
+                    <!-- Experiences will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="py-[80px] dark:bg-black90">
+        <div class="container mx-auto">
+            <div class="justify-start items-start mb-[40px]">
+                <h2 class="font-bold text-3xl text-white lg:text-4xl lg:leading-tight mb-2">Selected Projects</h2>
+                <p class="text-black50">Kumpulan proyek yang telah saya selesaikan</p>
+            </div>
+            
+            <div class="justify-start items-start gap-8 inline-flex mb-[60px] lg:text-2xl text-lg">
+                <a href="#" class="filter-link text-zinc-100 font-semibold" onclick="filterContent('Website Design')">Web Design</a>
+                <a href="#" class="filter-link text-zinc-100 font-semibold" onclick="filterContent('Mobile App Design')">Mobile Design</a>
+                <a href="#" class="filter-link text-zinc-100 font-semibold" onclick="filterContent('Website')">Website</a>
+            </div>            
+            
+            <div class="flex flex-wrap">
+                <div id="portfolioContainer" class="flex flex-wrap">
+                    <!-- Portfolio cards will be dynamically added here -->
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Section Footer Start-->
+    <section id="contact" class="dark:bg-darkmodesecondary">
+        <div class="w-full h-full overflow-hidden flex flex-col">
+            <div class="relative">
+                <div class="absolute right-0 -top-10 z-0 lg:block hidden">
+                    <svg width="370" height="304" viewBox="0 0 370 304" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M474.225 -146.226C486.67 -178.949 462.5 -214 427.491 -214H193.697C172.328 -214 153.322 -200.421 146.396 -180.206L3.18311 237.794C-7.93524 270.246 16.1806 304 50.4839 304H268.522C289.279 304 307.877 291.175 315.256 271.773L474.225 -146.226Z" fill="#5B5B5B"/>
+                    </svg>                                                 
+                </div>
+                <div class="absolute -left-8 -top-24 z-1">
+                    <svg width="486" height="395" viewBox="0 0 486 395" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M-79.0736 -58.286C-88.9745 -90.4407 -64.9321 -123 -31.2876 -123H267.471C287.901 -123 306.276 -110.571 313.879 -91.6088L481.489 326.391C494.661 359.24 470.472 395 435.081 395H97.4209C75.4744 395 56.0933 380.689 49.6349 359.714L-79.0736 -58.286Z" fill="#5B5B5B"/>
+                    </svg>                                                
+                </div>              
+            </div>    
+                   
+            <div class="container py-[80px] z-10">  
+                <div class="gap-10 mb-[60px]">
+                    <div class="w-full text-white text-[32px] font-bold lg:text-5xl mb-[40px] lg:mb-[36px]">Embark on Your Design Odyssey: From Ideation to Realization.</div>
+                    <a href="mailto:calvinalvito19@gmail.com" class="group pl-5 pr-2 py-2 bg-green50 rounded-[100px] justify-center items-center gap-[18px] inline-flex group-hover:opacity-80">
+                        <div class="text-white text-2xl font-semibold group-hover:opacity-80">Hire Me !</div>
+                        <div class="p-3 bg-white rounded-[100px] justify-center items-center gap-2.5 flex group-hover:opacity-80">
+                            <div class="w-6 h-6 relative">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 12H22M22 12L13 3M22 12L13 21" stroke="#1C1C1C" stroke-width="2"/>
+                                </svg>                                    
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="w-full border border-zinc-100 mb-[24px]"></div>
+                <div>
+                    <div class="text-white text-2xl font-semibold mb-[4px]">Get in touch</div>
+                    <div class="text-black50 text-base mb-[18px]">For business inquiry please send email to calvinalvito19@gmail.com</div>
+                    <div class="justify-start items-start gap-2 lg:gap-5 flex">
+                        <a href="https://dribbble.com/CalvinAlvito" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                            <div class="w-7 h-7 relative">
+                                <div class="w-7 h-7 left-0 top-0 absolute">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.0697 16.8457C16.9633 19.4943 17.5643 22.2328 17.8617 25.0123C16.6206 25.4468 15.3149 25.6681 14 25.6668C11.6868 25.6704 9.42518 24.983 7.50516 23.6928C8.39982 22.035 9.6191 20.5743 11.0903 19.3977C12.5615 18.2211 14.2546 17.3528 16.0685 16.8445L16.0697 16.8457ZM25.1685 17.3858C24.3354 20.1231 22.5278 22.46 20.0877 23.9542C19.7614 21.3903 19.1911 18.8635 18.3843 16.4082C20.6917 16.1697 23.0223 16.5056 25.1685 17.3858ZM14.1692 12.2327C14.5565 13.0237 14.9193 13.831 15.2542 14.6512C11.2135 15.8354 7.78447 18.5308 5.67933 22.1773C4.4964 20.9652 3.58928 19.5118 3.02004 17.9167C2.45079 16.3215 2.23286 14.6222 2.38116 12.935C6.28133 13.761 10.3962 13.5207 14.1692 12.2327ZM23.0067 6.58483C24.9504 8.95857 25.8884 11.9986 25.62 15.0548C23.0535 14.0888 20.2863 13.78 17.57 14.1565C17.195 13.2088 16.7844 12.2756 16.3392 11.3588C18.8385 10.1948 21.0995 8.57596 23.0067 6.58483ZM8.47699 3.72183C10.2204 5.69937 11.7568 7.85026 13.062 10.1408C9.75078 11.1954 6.22178 11.3684 2.82333 10.6425C3.71777 7.67833 5.75084 5.18964 8.47699 3.72183ZM14 2.3335C16.786 2.3335 19.3445 3.31 21.35 4.93983C19.6134 6.76117 17.5468 8.23628 15.26 9.28683C13.972 6.98126 12.4639 4.80578 10.7567 2.79083C11.8109 2.48671 12.9028 2.33275 14 2.3335Z" fill="#DADADA"/>
+                                    </svg>                                            
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://dribbble.com/CalvinAlvito" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                            <div class="w-7 h-7 relative">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.68346 6.2417C9.42896 6.2417 10.1185 6.30003 10.7485 6.4727C11.3796 6.5882 11.8965 6.8192 12.355 7.10737C12.8146 7.3967 13.1588 7.80037 13.3875 8.31953C13.6173 8.8387 13.7328 9.47453 13.7328 10.1664C13.7328 10.9749 13.5601 11.6667 13.1588 12.1859C12.8146 12.7062 12.2406 13.167 11.5523 13.5135C12.5276 13.8029 13.2731 14.322 13.7328 15.015C14.1913 15.7069 14.4783 16.5725 14.4783 17.5537C14.4783 18.3622 14.3056 19.054 14.0186 19.6315C13.7328 20.209 13.2731 20.7282 12.7563 21.0747C12.1949 21.4461 11.5743 21.7191 10.9211 21.882C10.2328 22.0559 9.54446 22.1714 8.85613 22.1714H1.16663V6.2417H8.68346ZM8.22379 12.705C8.85496 12.705 9.37179 12.5324 9.77313 12.2442C10.1745 11.956 10.3471 11.4357 10.3471 10.801C10.3471 10.4545 10.2888 10.1092 10.1745 9.8782C10.0601 9.6472 9.88746 9.47337 9.65879 9.3007C9.42896 9.1852 9.19913 9.0697 8.91213 9.01253C8.62513 8.9542 8.33929 8.9542 7.99396 8.9542H4.66663V12.7062H8.22496L8.22379 12.705ZM8.39646 19.516C8.74063 19.516 9.08479 19.4577 9.37179 19.4005C9.65879 19.3422 9.94579 19.2279 10.1745 19.054C10.4082 18.8851 10.6038 18.6689 10.7485 18.4194C10.8628 18.1312 10.9783 17.7847 10.9783 17.381C10.9783 16.5725 10.7485 15.9962 10.29 15.5914C9.83029 15.2449 9.19913 15.0722 8.45363 15.0722H4.66663V19.5172L8.39646 19.516ZM19.4705 19.4577C19.929 19.9197 20.6173 20.1507 21.5355 20.1507C22.1666 20.1507 22.7406 19.978 23.1991 19.6899C23.6588 19.3434 23.9458 18.9969 24.0601 18.6515H26.8718C26.4121 20.0352 25.7238 21.0164 24.8068 21.6522C23.8875 22.2285 22.7978 22.575 21.4783 22.575C20.6341 22.5776 19.7969 22.4209 19.0108 22.113C18.3034 21.8478 17.6726 21.4117 17.1745 20.8437C16.6416 20.3124 16.2478 19.6581 16.0276 18.9385C15.7406 18.1884 15.6251 17.381 15.6251 16.457C15.6251 15.5914 15.7406 14.784 16.0276 14.0327C16.304 13.3098 16.7127 12.6447 17.2328 12.0715C17.7567 11.5335 18.3799 11.1021 19.068 10.801C19.8341 10.4931 20.6526 10.3362 21.4783 10.339C22.4536 10.339 23.3146 10.5129 24.0601 10.9165C24.8068 11.3202 25.3796 11.7822 25.8381 12.4752C26.2978 13.1099 26.6431 13.86 26.8718 14.6685C26.9861 15.4759 27.0433 16.2844 26.9861 17.2072H18.6666C18.6666 18.1312 19.0108 18.9969 19.4705 19.4589V19.4577ZM23.0848 13.398C22.6835 12.9944 22.0523 12.7634 21.3056 12.7634C20.79 12.7634 20.3875 12.88 20.0433 13.0527C19.6991 13.2254 19.4705 13.4564 19.2406 13.6874C19.0295 13.9105 18.8897 14.1916 18.8393 14.4947C18.781 14.784 18.7238 15.015 18.7238 15.2449H23.8875C23.7731 14.3792 23.4861 13.8029 23.0848 13.398ZM18.0355 7.33837H24.4615V8.89703H18.0366V7.33837H18.0355Z" fill="#DADADA"/>
+                                </svg>    
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/calvinalvitodinova/" class="p-2 rounded-[100px] border border-zinc-300 justify-start items-start gap-2.5 flex">
+                            <div class="w-7 h-7 relative">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.09672 5.83352C8.09641 6.45236 7.85028 7.04573 7.41248 7.4831C6.97467 7.92046 6.38106 8.166 5.76222 8.16569C5.14338 8.16538 4.55001 7.91925 4.11265 7.48145C3.67528 7.04364 3.42974 6.45003 3.43005 5.83119C3.43036 5.21235 3.67649 4.61898 4.1143 4.18162C4.5521 3.74425 5.14572 3.49871 5.76455 3.49902C6.38339 3.49933 6.97676 3.74546 7.41413 4.18327C7.85149 4.62107 8.09703 5.21469 8.09672 5.83352ZM8.16672 9.89352H3.50005V24.5002H8.16672V9.89352ZM15.5401 9.89352H10.8967V24.5002H15.4934V16.8352C15.4934 12.5652 21.0584 12.1685 21.0584 16.8352V24.5002H25.6667V15.2485C25.6667 8.05019 17.4301 8.31852 15.4934 11.8535L15.5401 9.89352Z" fill="#DADADA"/>
+                                </svg>                                        
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/calvinalvito_/" class="p-2 rounded-[100px] border border-zinc-300 justify-center items-center gap-2.5 flex">
+                            <div class="w-7 h-7 relative">
+                                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.1993 2.33444C16.0507 2.33118 16.902 2.33973 17.7531 2.36011L17.9795 2.36828C18.2408 2.37761 18.4986 2.38928 18.8101 2.40328C20.0515 2.46161 20.8985 2.65761 21.6416 2.94578C22.4116 3.24211 23.0603 3.64344 23.709 4.29211C24.3021 4.87498 24.7611 5.58005 25.0541 6.35828C25.3423 7.10144 25.5383 7.94961 25.5966 9.19094C25.6106 9.50128 25.6223 9.76028 25.6316 10.0216L25.6386 10.2479C25.6594 11.0987 25.6683 11.9496 25.6655 12.8006L25.6666 13.6709V15.1993C25.6695 16.0506 25.6606 16.902 25.6398 17.7531L25.6328 17.9794C25.6235 18.2408 25.6118 18.4986 25.5978 18.8101C25.5395 20.0514 25.3411 20.8984 25.0541 21.6416C24.7621 22.4207 24.3029 23.1263 23.709 23.7089C23.1256 24.302 22.4202 24.761 21.6416 25.0541C20.8985 25.3423 20.0515 25.5383 18.8101 25.5966C18.4986 25.6106 18.2408 25.6223 17.9795 25.6316L17.7531 25.6386C16.902 25.6593 16.0507 25.6683 15.1993 25.6654L14.329 25.6666H12.8018C11.9505 25.6695 11.0991 25.6605 10.248 25.6398L10.0216 25.6328C9.74469 25.6227 9.4678 25.6111 9.19098 25.5978C7.94965 25.5394 7.10265 25.3411 6.35831 25.0541C5.57978 24.7617 4.87459 24.3026 4.29215 23.7089C3.69837 23.1259 3.23891 22.4204 2.94581 21.6416C2.65765 20.8984 2.46165 20.0514 2.40331 18.8101C2.39032 18.5333 2.37865 18.2564 2.36831 17.9794L2.36248 17.7531C2.34097 16.902 2.33125 16.0506 2.33331 15.1993V12.8006C2.33006 11.9496 2.33862 11.0987 2.35898 10.2479L2.36715 10.0216C2.37648 9.76028 2.38815 9.50128 2.40215 9.19094C2.46048 7.94844 2.65648 7.10261 2.94465 6.35828C3.23792 5.57967 3.69827 4.8748 4.29331 4.29328C4.87536 3.69915 5.5801 3.23928 6.35831 2.94578C7.10265 2.65761 7.94848 2.46161 9.19098 2.40328L10.0216 2.36828L10.248 2.36244C11.0987 2.34095 11.9497 2.33122 12.8006 2.33328L15.1993 2.33444ZM14 8.16778C13.2271 8.15684 12.4597 8.29964 11.7425 8.58786C11.0252 8.87607 10.3724 9.30397 9.82197 9.84667C9.27153 10.3894 8.83445 11.0361 8.53612 11.7492C8.23778 12.4623 8.08415 13.2275 8.08415 14.0005C8.08415 14.7735 8.23778 15.5388 8.53612 16.2519C8.83445 16.965 9.27153 17.6117 9.82197 18.1544C10.3724 18.6971 11.0252 19.125 11.7425 19.4132C12.4597 19.7014 13.2271 19.8442 14 19.8333C15.5471 19.8333 17.0308 19.2187 18.1248 18.1247C19.2187 17.0308 19.8333 15.547 19.8333 13.9999C19.8333 12.4528 19.2187 10.9691 18.1248 9.87515C17.0308 8.78119 15.5471 8.16778 14 8.16778ZM14 10.5011C14.4649 10.4925 14.9269 10.5767 15.3589 10.7487C15.7909 10.9207 16.1844 11.177 16.5162 11.5027C16.8481 11.8285 17.1117 12.2171 17.2917 12.6458C17.4716 13.0746 17.5644 13.5349 17.5645 13.9999C17.5645 14.4649 17.472 14.9253 17.2921 15.3541C17.1123 15.7829 16.8488 16.1716 16.5171 16.4975C16.1853 16.8233 15.792 17.0798 15.36 17.2519C14.928 17.424 14.4661 17.5084 14.0011 17.4999C13.0729 17.4999 12.1827 17.1312 11.5263 16.4748C10.8699 15.8184 10.5011 14.9282 10.5011 13.9999C10.5011 13.0717 10.8699 12.1814 11.5263 11.5251C12.1827 10.8687 13.0729 10.4999 14.0011 10.4999L14 10.5011ZM20.125 6.41778C19.7486 6.43284 19.3927 6.59295 19.1317 6.86458C18.8707 7.1362 18.725 7.49827 18.725 7.87494C18.725 8.25162 18.8707 8.61369 19.1317 8.88531C19.3927 9.15693 19.7486 9.31705 20.125 9.33211C20.5118 9.33211 20.8827 9.17846 21.1562 8.90497C21.4297 8.63148 21.5833 8.26055 21.5833 7.87378C21.5833 7.487 21.4297 7.11607 21.1562 6.84258C20.8827 6.56909 20.5118 6.41544 20.125 6.41544V6.41778Z" fill="#DADADA"/>
+                                </svg>                                        
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Footer End -->
+
+    <script src="dist/script.js"></script>
+    <script src="src/component/portofolioCard.js"></script>
+    <script src="src/component/experience.js"></script>
+    <script>
+        // Pemanggilan pertama kali dengan jenis "Web Design"
+        document.addEventListener("DOMContentLoaded", function () {
+            filterContent('Website Design');
+        });
+
+        // Menangani klik pada tautan filter
+        function handleFilterClick(type) {
+            filterContent(type);
+        }
+    </script>
+    
+
+</body>
+</html>
