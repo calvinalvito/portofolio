@@ -2,6 +2,14 @@
     "portfolios": [
       {
         "type": "Website Design",
+        "image": "img/DreamJobs.png",
+        "judul": "DreamJobs",
+        "description": "",
+        "viewMoreLink": "https://dribbble.com/shots/23280691-DreamJobs-Job-Search-Platform",
+        "dribbbleLink": "https://dribbble.com/shots/23280691-DreamJobs-Job-Search-Platform"
+      },
+      {
+        "type": "Website Design",
         "image": "img/learners.png",
         "judul": "Landing Page - Learners",
         "description": "Learnes is an e-learning website that helps students learn wherever and whenever.",
@@ -31,6 +39,14 @@
         "description": "This is my internship project called internship page, here users can search for available internship vacancies.",
         "viewMoreLink": "https://dribbble.com/shots/19839402-Internship-Page",
         "dribbbleLink": "https://dribbble.com/shots/19839402-Internship-Page"
+      },
+      {
+        "type": "Mobile App Design",
+        "image": "img/BankingApp.png",
+        "judul": "Banking App",
+        "description": "",
+        "viewMoreLink": "https://dribbble.com/shots/23325737-IndoPay-Banking-App",
+        "dribbbleLink": "https://dribbble.com/shots/23325737-IndoPay-Banking-App"
       },
       {
         "type": "Mobile App Design",
