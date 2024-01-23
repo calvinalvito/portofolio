@@ -59,6 +59,22 @@
       {
         "type": "Website",
         "image": "img/github.png",
+        "judul": "FE-PastiLaris-TailwindCSS",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/FE-PastiLaris-TailwindCSS",
+        "dribbbleLink": "https://github.com/calvinalvito/FE-PastiLaris-TailwindCSS"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
+        "judul": "FE-WeServe-TailwindCSS",
+        "description": "",
+        "viewMoreLink": "https://github.com/calvinalvito/FE-WeServe-TailwindCSS",
+        "dribbbleLink": "https://github.com/calvinalvito/FE-WeServe-TailwindCSS"
+      },
+      {
+        "type": "Website",
+        "image": "img/github.png",
         "judul": "Learners-FrontPage",
         "description": "",
         "viewMoreLink": "https://github.com/calvinalvito/Learnes-FrontPage",
